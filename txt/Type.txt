@@ -1,0 +1,16 @@
+//Tuples
+
+let arr = ['akshay', 23, true];
+arr[0] = false;
+arr[1] = 'akshay',
+    arr = [39, false, true];
+//Real tuple
+let tup: [string, number, boolean] = ['akshay', 23, true];
+tup[0] = false;
+tup[1] = 'akshay',
+    tup = [39, false, true];
+
+//Example 
+let student: [string, number, boolean]
+student = ['akshay', 23, true];//right way
+student = ['akshay', 23, true, 'akshay'];//wrong way

@@ -1,0 +1,25 @@
+//interface 
+interface Isperson {
+    name: string;
+    age: number;
+    speak(a: string): void;
+    spend(a: number): number;
+}
+
+const me: Isperson = {
+    name: 'akshay',
+    age: 23,
+    speak(text: string): void {
+        console.log(text);
+    },
+    spend(amount: number): number {
+        console.log("I spend", amount);
+        return amount;
+    }
+}
+
+const greetperson = (person: Isperson) => {
+    console.log('hello0', person.name);
+}
+
+greetperson(me)

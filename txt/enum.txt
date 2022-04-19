@@ -1,0 +1,26 @@
+//Enum
+
+enum ResourceType {
+    BOOK, AUTHOR, FILM, DIRECTOR, PERSON
+}
+
+interface Resource<T> {
+    uid: number;
+    resourceName: ResourceType;
+    data: T
+}
+
+const docThree: Resource<string> = {
+    uid: 1,
+    resourceName: ResourceType.AUTHOR,
+    data: "akshay"
+}
+
+const docFour: Resource<object> = {
+    uid: 4,
+    resourceName: ResourceType.BOOK,
+    data: { name: ResourceType.DIRECTOR }
+}
+
+
+console.log(docThree, docFour);

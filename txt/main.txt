@@ -1,0 +1,165 @@
+// let character='mario'
+// let age=50;
+// let isBlackBelt=false;
+
+// // character=49;
+// character='vardhan';
+// isBlackBelt=true;
+
+// const cir=(adding:number)=>{
+//   return adding+adding;
+// }
+
+// console.log(cir(35));
+
+
+// // Arrays
+// let names=['akshay','vardhan','sagar'];
+
+// names.push('sagar');
+// // names.push(34);
+// // names[0]=999;
+
+// let numbers=[1,2,3,4,5,6,7,8,9,10];
+// numbers.push(2)
+// // numbers[3]='akshay';
+
+// let mixed=['ken',3,'akshay',7,9]
+// mixed.push('vardhan');
+// mixed.push(28);
+// mixed[4]=4;
+
+// // object
+// let akshay={
+//   name:'vardhan',
+//   belt:true,
+//   age:23,
+// }
+// // akshay.age='lksfjlksjf'
+// akshay={
+//   name:'vardhan',
+//   belt:true,
+//   age:23,
+//   // address:'pune'
+// }
+
+// explicit types
+// let peru:string;
+// let age:number;
+// let isloggedin:boolean;
+
+// // Arrays
+// let ninja:string[]=[];
+// ninja.push('akshay');
+
+// // Unions
+// let mixedstring:(string|number)[]=[];
+// mixedstring.push('hello');
+// mixedstring.push(44);
+
+// // this is for array not for normal varables
+// let akshay :string|number;
+// akshay='akshay'
+// akshay=44
+//// akshay=true
+
+
+// Object
+// let akshay:object;
+// akshay={name:'akshay',ago:33}
+// akshay=[]
+
+// let akshayobject:{
+//   name:string,
+//   age:number,
+//   isloggedin:boolean
+// }
+// akshayobject={
+//   name:'akshay',
+//   age:33,
+//   isloggedin:true,
+//   // skills:['html','css','js']
+// }
+
+// Any
+// let age:any=33;
+// age='akshay';
+// console.log(age);
+
+// console.log('test');
+
+// Functions in TypeScript
+
+// let greet = ()=>{
+//     console.log('hello')    
+// }
+
+// let greet2:Function;
+// greet2=()=>{
+//     console.log('hello')    
+// }
+
+// const add =(a:number,b:number)=>{
+//     console.log(a+b);
+// }
+
+// add(3,3)
+
+// const add3=(a:number,b:number,c:number |string=23)=>{
+//     console.log(a+b);
+//     console.log(c);
+
+
+// }
+// // add3(2,3)
+
+// const minus=(a:number,b:number)=>{
+//     return a-b;
+// }
+
+// let result =minus(2,4)
+
+
+// type alias
+
+//     type StringAndNumber=string|number;
+//     type ObjectWithName={
+//         name:string,
+//         uid:StringAndNumber
+//     }
+
+// const logdetails=(uid:StringAndNumber,item:string)=>{
+//     console.log(   `user id is ${uid} and item is ${item}`)
+// }
+
+// const logdetailss=(user:ObjectWithName)=>{
+//     console.log(`user id is ${user.name} hello}`)
+// }
+
+// Function signature
+
+// example 1
+// let greet: (a: string, b: string) => void;
+
+// greet = (peru: string, againperu: string) => {
+//     console.log(`${peru} ${againperu}`);
+
+// }
+
+// // example 2
+
+// let calc: (a: number, b: number, c: string) => number
+
+// calc = (num1: number, num2: number, action: string) => {
+//     if (action === 'add') {
+//         return num1 + num2;
+//     } else {
+//         return num1 - num2;
+//     }
+// }
+
+// // example 3
+// let logDetails: (obj: { name: string, age: number }) => void;
+// logDetails = (user: { name: string, age: number }) => {
+//     console.log(`user.name is ${user.name} and user.age is ${user.age}`);
+// }

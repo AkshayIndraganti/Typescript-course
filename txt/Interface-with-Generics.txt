@@ -1,0 +1,18 @@
+//Interface
+interface Resource<T> {
+    uid: number;
+    resourceName: string;
+    data: T
+}
+
+const docThree: Resource<string> = {
+    uid: 1,
+    resourceName: "akshay",
+    data: "akshay"
+}
+
+const docFour: Resource<object> = {
+    uid: 4,
+    resourceName: "akshay",
+    data: { name: "akshay" }
+}

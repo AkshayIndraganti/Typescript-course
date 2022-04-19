@@ -1,0 +1,28 @@
+// let docOne: HasFormatter;
+// let docTwo: HasFormatter;
+
+// docOne = new Invoice('akshay', 'work on the new project', 222)
+// docTwo = new Payment('akshay', 'work on the new project', 222)
+
+// let docs: HasFormatter[] = [];
+
+// docs.push(docOne);
+// docs.push(docTwo);
+
+// console.log(docs);
+
+
+
+
+
+// const invOne = new Invoice('akshay', 'working on rootlogic website', 500);
+// const invTwo = new Invoice('vardhan', 'working in cognizant', 3333)
+
+// let invoices: Invoice[] = [];
+// invoices.push(invOne);
+// invoices.push(invTwo);
+// console.log(invoices);
+
+// invoices.forEach(inv => {
+//     console.log(inv.client, inv.amount,);
+// })
